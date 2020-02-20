@@ -36,7 +36,7 @@ Make sure the I2Cbus library is included in your components directory. \
 See MPUs README.md for more information.''
 #endif
 
-#include "I2Cbus.hpp"
+#include "i2c_bus.hpp"
 
 #elif CONFIG_MPU_SPI
 #if !defined SPIBUS_COMPONENT_TRUE
